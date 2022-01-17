@@ -5,6 +5,8 @@ import { DivisionComponent } from './division/division.component';
 
 const routes: Routes = [
   {path: '' , redirectTo:'/dashboard',pathMatch:'full'},
+  {path: 'dashboard' , redirectTo:'/dashboard',pathMatch:'full'},
+  {path: 'divisi' , redirectTo:'/divisi',pathMatch:'full'},
   {path:"dashboard", component:DashboardComponent},
   {path:"divisi", component:DivisionComponent}
 ];
